@@ -69,12 +69,11 @@ Feed it w/ your systeminfo dump python windows-exploit-suggester.py --database 2
 ```
 
 ## PS enumeration
+
+Show full path of files:
 ```
 gci -recurse . | select fullname
 ```
---reliable win exploits
-Microsoft Windows 8.1 (x64) - RGNOBJ Integer Overflow (MS16-098)
-MS16-032) works too but it's a pain in the ass if you don't set the correct architecture from start to end.
 
 
 ## Helpfull resources
