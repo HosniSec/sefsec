@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear in.
 
 title = "✏️SefSec"
-subtitle = "Random Sec notes"
+subtitle = "Random Security notes"
 
 [design.background]
   # Background color.
